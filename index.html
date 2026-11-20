@@ -41,7 +41,7 @@
 </head>
 <body>
 <!-- Nơi điền email của người nhận. KHÔNG nhập email khách tại đây. Khách không cần đăng nhập. -->
-<script>const INVITATION_CONFIG = { recipientEmail: "22123045@st.hcmuaf.edu.vn", siteTitle: "Graduation 2026" };</script>
+<script>const INVITATION_CONFIG = { recipientEmail: "tothithanhhoang279@gmail.com", siteTitle: "Graduation 2026" };</script>
 <div class="rotate-screen" role="status" aria-live="polite">
   <div class="rotate-inner"><strong>GRADUATION · 2026</strong>
     <svg class="rotate-art" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="43" y="19" width="38" height="80" rx="8" stroke="#E1D9CA" stroke-width="3"/><path d="M52 26h20" stroke="#E1D9CA" stroke-width="2" stroke-linecap="round"/><circle cx="62" cy="89" r="2" fill="#D1BC9F"/><path d="M23 50a39 39 0 0 0 60 39M84 90l-4-15m4 15-17-2" stroke="#86AC99" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -142,7 +142,7 @@
     }catch(err){
       const errorText=String(err.message||'');
       if(/activation|activate form|form needs activation/i.test(errorText)){
-        displayStatus('warn','Biểu mẫu nhận phản hồi chưa được kích hoạt. Người nhận thiệp cần mở hộp thư 22123045@st.hcmuaf.edu.vn, tìm email từ FormSubmit và nhấn “Activate Form”. Nếu chưa thấy email, hãy kiểm tra Spam/Thư rác. Sau khi kích hoạt, khách mời có thể gửi phản hồi bình thường.');
+        displayStatus('warn','Biểu mẫu nhận phản hồi chưa được kích hoạt. Người nhận thiệp cần mở hộp thư tothithanhhoang279@gmail.com, tìm email từ FormSubmit và nhấn “Activate Form”. Nếu chưa thấy email, hãy kiểm tra Spam/Thư rác. Sau khi kích hoạt, khách mời có thể gửi phản hồi bình thường.');
       }else{
         displayStatus('err','Chưa gửi được phản hồi. Vui lòng kiểm tra kết nối Internet rồi thử lại. ('+errorText.slice(0,140)+')');
       }
