@@ -1,0 +1,1 @@
+Thiệp mời tốt nghiệp 2026 — website tĩnh. Xem index.html để mở thiệp.
