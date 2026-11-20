@@ -142,7 +142,7 @@
     }catch(err){
       const errorText=String(err.message||'');
       if(/activation|activate form|form needs activation/i.test(errorText)){
-        displayStatus('warn','Biểu mẫu nhận phản hồi chưa được kích hoạt. Người nhận thiệp cần mở hộp thư 22123045@hcmuaf.edu.vn, tìm email từ FormSubmit và nhấn “Activate Form”. Nếu chưa thấy email, hãy kiểm tra Spam/Thư rác. Sau khi kích hoạt, khách mời có thể gửi phản hồi bình thường.');
+        displayStatus('warn','Biểu mẫu nhận phản hồi chưa được kích hoạt. Người nhận thiệp cần mở hộp thư 22123045@st.hcmuaf.edu.vn, tìm email từ FormSubmit và nhấn “Activate Form”. Nếu chưa thấy email, hãy kiểm tra Spam/Thư rác. Sau khi kích hoạt, khách mời có thể gửi phản hồi bình thường.');
       }else{
         displayStatus('err','Chưa gửi được phản hồi. Vui lòng kiểm tra kết nối Internet rồi thử lại. ('+errorText.slice(0,140)+')');
       }
