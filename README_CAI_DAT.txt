@@ -18,11 +18,11 @@ THIỆP MỜI TỐT NGHIỆP 2026 — WEBSITE NGANG 5 TRANG
 - Đường dẫn Google Maps cần Internet để hoạt động.
 
 3. EMAIL NHẬN PHẢN HỒI ĐÃ ĐƯỢC CẤU HÌNH
-- Email nhận: 22123045@hcmuaf.edu.vn
+- Email nhận: 22123045@st.hcmuaf.edu.vn
 - Khách mời không cần đăng nhập email hoặc tạo tài khoản.
 - Khách chỉ cần nhập tên, chọn trạng thái tham dự và viết lời nhắn.
 - Form gửi dữ liệu bằng AJAX qua FormSubmit: https://formsubmit.co/ajax/.
-- Lần đầu website được xuất bản và có người gửi form, FormSubmit sẽ gửi thư xác nhận/kích hoạt đến 22123045@hcmuaf.edu.vn.
+- Lần đầu website được xuất bản và có người gửi form, FormSubmit sẽ gửi thư xác nhận/kích hoạt đến 22123045@st.hcmuaf.edu.vn.
 - Chủ email cần mở thư kích hoạt và bấm “Activate Form”. Kiểm tra cả mục Spam/Thư rác nếu chưa thấy. Nếu website báo lỗi Activation thì đây là bước xác minh bắt buộc của FormSubmit, không phải lỗi bố cục website.
 - Sau khi kích hoạt, gửi thử một phản hồi từ website đã xuất bản và kiểm tra hộp thư đến.
 - Nếu thay đổi email nhận sau này, địa chỉ mới cần được xác minh lại.
