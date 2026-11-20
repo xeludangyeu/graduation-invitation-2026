@@ -5,7 +5,7 @@ THIỆP MỜI TỐT NGHIỆP 2026 — WEBSITE NGANG 5 TRANG
 - Trang 1: Bìa thiệp (dùng ảnh gốc cầm bó hoa do người dùng cung cấp).
 - Trang 2: Lời mời cá nhân.
 - Trang 3: Ngày và giờ bắt đầu.
-- Trang 4: Địa điểm + ảnh cổng trường + nút mở Google Maps.
+- Trang 4: Địa điểm + ảnh cổng trường gốc (được giữ nguyên) + ảnh bản đồ vệ tinh Google Maps do người dùng cung cấp; cả ảnh trường và ảnh bản đồ đều có mặt, bản đồ có thể bấm để mở Google Maps.
 - Trang 5: Form phản hồi / RSVP.
 - Trang Khoảnh khắc (trang số 4 của bản cũ) đã được gỡ bỏ theo yêu cầu.
 
@@ -23,7 +23,7 @@ THIỆP MỜI TỐT NGHIỆP 2026 — WEBSITE NGANG 5 TRANG
 - Khách chỉ cần nhập tên, chọn trạng thái tham dự và viết lời nhắn.
 - Form gửi dữ liệu bằng AJAX qua FormSubmit: https://formsubmit.co/ajax/.
 - Lần đầu website được xuất bản và có người gửi form, FormSubmit sẽ gửi thư xác nhận/kích hoạt đến 22123045@hcmuaf.edu.vn.
-- Chủ email cần mở thư kích hoạt và bấm xác nhận. Kiểm tra cả mục Spam/Thư rác nếu chưa thấy.
+- Chủ email cần mở thư kích hoạt và bấm “Activate Form”. Kiểm tra cả mục Spam/Thư rác nếu chưa thấy. Nếu website báo lỗi Activation thì đây là bước xác minh bắt buộc của FormSubmit, không phải lỗi bố cục website.
 - Sau khi kích hoạt, gửi thử một phản hồi từ website đã xuất bản và kiểm tra hộp thư đến.
 - Nếu thay đổi email nhận sau này, địa chỉ mới cần được xác minh lại.
 - Form hiện không hỏi email của khách, nên người mời không thể trả lời riêng qua email của khách từ dữ liệu form; có thể trả lời bằng cách khác nếu khách tự để thông tin liên hệ trong lời nhắn.
@@ -40,9 +40,13 @@ THIỆP MỜI TỐT NGHIỆP 2026 — WEBSITE NGANG 5 TRANG
 - Bắt đầu: 11h30. Không tự đặt giờ kết thúc.
 - Địa điểm: Trường Đại học Nông Lâm TP. HCM.
 - Ảnh bìa dùng tệp ảnh gốc của người dùng, không tạo lại hoặc chỉnh sửa khuôn mặt.
-- Ảnh trường chính là ảnh cổng trường người dùng gửi, đặt tại trang Google Maps.
+- Ảnh trường chính là ảnh cổng trường người dùng gửi và vẫn được giữ nguyên ở trang 4. Ảnh bản đồ vệ tinh Google Maps người dùng gửi được thêm vào thẻ bản đồ nổi bên dưới; không thay thế ảnh trường.
 - Văn bản tiếng Việt dùng Unicode UTF-8; font Be Vietnam Pro và Noto Serif.
 
 6. QUYỀN RIÊNG TƯ
 - Khi xuất bản, ảnh của người thật và email nhận phản hồi trong mã website có thể được truy cập bởi người xem/mã nguồn. Chỉ xuất bản khi chủ thể ảnh đồng ý.
 - FormSubmit là dịch vụ bên thứ ba xử lý nội dung phản hồi; không yêu cầu khách gửi mật khẩu, thông tin thanh toán hoặc dữ liệu nhạy cảm.
+
+7. CẬP NHẬT BẢN NÀY
+- Trang 4 đã có thêm ảnh bản đồ vệ tinh assets/map_nlu.jpg trong thẻ Google Maps nổi; ảnh cổng trường assets/truong_nong_lam.webp vẫn được giữ nguyên.
+- Khi cập nhật GitHub, tải lại toàn bộ nội dung trong thư mục này (index.html, README_CAI_DAT.txt và assets/) để không thiếu ảnh bản đồ.
